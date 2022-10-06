@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/librarian_businessHourTable"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+    <!--    Create item title-->
+    <!--Librarian Homepage Title-->
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="77dp"
+        android:text="    Create Business Hour"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColorLink="#4C3E3E" />
+    <!--    input of index of day of week of the new item-->
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" />
+
+    <TableLayout
+        android:id="@+id/librarian_businessHourListTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/newBusinessHour_DayOfWeek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Day of week(1-7)" />
+
+    <!--    input of start time of the new business hour-->
+
+    <EditText
+        android:id="@+id/newBusinessHour_StartTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Start Time(hh:mm:ss)" />
+    <!--    input of end time of the new business hour-->
+    <EditText
+        android:id="@+id/newBusinessHour_EndTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="End Time(hh:mm:ss)" />
+    <!-- Button which creates a new businessHour-->
+    <Button
+        android:id="@+id/create_businessHour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:onClick="createBusinessHour"
+        android:text="Create Business Hour" />
+    <!-- Button which updates an existing businessHour-->
+    <Button
+        android:id="@+id/update_buessinessHour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:onClick="updateBusinessHour"
+        android:text="Update Business Hour" />
+
+</LinearLayout>
