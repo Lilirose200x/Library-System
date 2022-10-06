@@ -1,0 +1,33 @@
+name: Deploy Frontend and Backend
+
+on:
+  push:
+    branches: main
+
+# We have to push sequentially to heroku otherwise it will fail
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: push backend
+      uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
+      with:
+        heroku_api_key: "60c508cc-c2ec-48e6-8ea5-30f264d5036a"
+        heroku_app_name: "library-backend-d1"
+        heroku_email: "ecse321group18@outlook.com"
+        dontuseforce: false
+#   frontend:
+#     needs: backend
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v2
+#       - name: push frontend
+#         uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
+#         with:
+#           heroku_api_key: "60c508cc-c2ec-48e6-8ea5-30f264d5036a"
+#           heroku_app_name: "library-frontend-d1"
+#           heroku_email: "ecse321group18@outlook.com"
+#           dontuseforce: false 
+ 
+
