@@ -42,13 +42,13 @@ Code of Mobile Frontend: https://github.com/McGill-ECSE321-Fall2021/project-grou
 ## Deliverable 1
 
 ### Overview Table
-| Team member | Total hours | Responsibility |
-|------------------ |-------------| ---------------|
-| Shichang Zhang    | 23| system requirement, model building, persistance layer, project management, testing persistence layer | 
-| Junjian Chen |  22| system requirement, UML diagram, build and implement domain model,Use case diagram, testing persistence layer |
-| Haipeng Yue   | 17 | system requirment, CI setup and Domain model |
-| Ruoli Wang   | 14| requirements model, testing persistence layer |
-| Maoyu Wang   | 14| requirement model, Heroku Setup, Database Interface, Testing|
+| Team member | Responsibility |
+|------------------ |---------------|
+| Shichang Zhang    | system requirement, model building, persistance layer, project management, testing persistence layer | 
+| Junjian Chen |  system requirement, UML diagram, build and implement domain model,Use case diagram, testing persistence layer |
+| Haipeng Yue   | system requirment, CI setup and Domain model |
+| Ruoli Wang   | requirements model, testing persistence layer |
+| Maoyu Wang   | requirement model, Heroku Setup, Database Interface, Testing|
 
 ### Links
 
@@ -67,13 +67,13 @@ Code of Mobile Frontend: https://github.com/McGill-ECSE321-Fall2021/project-grou
 ## Deliverable 2
 
 ### Overview Table
-| Team member | Total hours | Responsibility |
-|------------------ |-------------| ---------------|
-| Shichang Zhang    | 30| RESTful services Implementation  | 
-| Junjian Chen |  30| RESTful services Implementation, Project Management and Project Report|
-| Haipeng Yue   | 20 | Unit Testing of Backend, Build System, Continuous Integration, and Delivery |
-| Ruoli Wang   | 10| Unit Testing of Backend|
-| Maoyu Wang   | 10| Integration Testing of Backend Services|
+| Team member | Responsibility |
+|------------------ |---------------|
+| Shichang Zhang    | RESTful services Implementation  | 
+| Junjian Chen |  RESTful services Implementation, Project Management and Project Report|
+| Haipeng Yue   | Unit Testing of Backend, Build System, Continuous Integration, and Delivery |
+| Ruoli Wang   |Unit Testing of Backend|
+| Maoyu Wang   | Integration Testing of Backend Services|
 
 ### Links
 * [Integration Test for RESTful Service](https://docs.google.com/document/d/1lSx-DMLjLoDgCcSUHP4M7qu6JgFNrk7zfAgTlf0tNyA/edit?usp=sharing)
@@ -87,13 +87,13 @@ Code of Mobile Frontend: https://github.com/McGill-ECSE321-Fall2021/project-grou
 ## Deliverable 3
 
 ### Overview Table
-| Team member | Total hours | Responsibility |
-|------------------ |-------------| ---------------|
-| Shichang Zhang    |40| Frontend user signup and login<br>Integration of Web Frontend with Backend Services of login/signup <br> architecture modeling and project management | 
-| Junjian Chen | 50| Frontend UI for User<br>Integration of Web Frontend with Backend Services for User <br> user manual report|
-| Haipeng Yue   | 40 | Frontend UI for Librarian<br>Integration of Web Frontend with Backend Services for Librarian <br> user manual report|
-| Ruoli Wang   |15 | Frontend UI for User|
-| Maoyu Wang   |20 | Frontend UI for Librarian<br>Integration of Web Frontend with Backend Services for Librarian|
+| Team member | Responsibility |
+|------------------ |---------------|
+| Shichang Zhang    |Frontend user signup and login<br>Integration of Web Frontend with Backend Services of login/signup <br> architecture modeling and project management | 
+| Junjian Chen | Frontend UI for User<br>Integration of Web Frontend with Backend Services for User <br> user manual report|
+| Haipeng Yue   | Frontend UI for Librarian<br>Integration of Web Frontend with Backend Services for Librarian <br> user manual report|
+| Ruoli Wang   |Frontend UI for User|
+| Maoyu Wang   |Frontend UI for Librarian<br>Integration of Web Frontend with Backend Services for Librarian|
 
 * [Architecture Model](https://github.com/McGill-ECSE321-Fall2021/project-group-18/wiki/Architecture-Model)
 
@@ -104,13 +104,13 @@ Code of Mobile Frontend: https://github.com/McGill-ECSE321-Fall2021/project-grou
 ## Sprint 4
 
 ### Overview Table
-| Team member | Total hours | Responsibility |
-|------------------ |-------------| ---------------|
-| Shichang Zhang    | 30| Implementation of Mobile Frontend<br>Project Management and Project Report<br>Code Quality Check| 
-| Junjian Chen |  30| Implementation of Mobile Frontend<br>Project Management and Project Report<br>User Documentationt<br>Build System, Continuous Integration, and Delivery |
-| Haipeng Yue   | 20 | Implementation of Mobile Frontend<br>User Documentation |
-| Ruoli Wang   | 15| Implementation of Mobile Frontend|
-| Maoyu Wang   | 5| Implementation of Mobile Frontend|
+| Team member | Responsibility |
+|------------------ |---------------|
+| Shichang Zhang    |Implementation of Mobile Frontend<br>Project Management and Project Report<br>Code Quality Check| 
+| Junjian Chen |  Implementation of Mobile Frontend<br>Project Management and Project Report<br>User Documentationt<br>Build System, Continuous Integration, and Delivery |
+| Haipeng Yue   | Implementation of Mobile Frontend<br>User Documentation |
+| Ruoli Wang   | Implementation of Mobile Frontend|
+| Maoyu Wang   |Implementation of Mobile Frontend|
 
 * [Web User Document](https://github.com/McGill-ECSE321-Fall2021/project-group-18/wiki/Web-User-Document)
 
