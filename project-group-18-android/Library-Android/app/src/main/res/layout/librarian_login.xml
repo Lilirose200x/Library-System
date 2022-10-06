@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="168dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <!--error-->
+        <TextView
+            android:id="@+id/error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#FF0000"
+            android:visibility="gone"
+            tools:ignore="MissingConstraints" />
+        <!--Login title-->
+        <!--input of librarian id-->
+        <!--librarian login button, if success, go to librarian home page-->
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="250dp"
+            android:layout_height="148dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="45dp"
+            android:text="Librarian Login"
+            android:textAlignment="center"
+            android:textColorLink="#4C3E3E"
+            android:textSize="50sp"
+            tools:ignore="MissingConstraints"
+            tools:visibility="visible" />
+
+        <EditText
+            android:id="@+id/librarian_login_id"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="45dp"
+            android:hint="librarian id"
+            android:inputType="textPassword"
+            tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/librarian_loginButton"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:onClick="login"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Login"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints,UsingOnClickInXml" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

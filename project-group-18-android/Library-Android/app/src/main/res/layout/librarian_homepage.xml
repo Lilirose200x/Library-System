@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp">
+        <!--        Buttons which goes to librarian item management page-->
+        <Button
+            android:id="@+id/goToLibrarianItemButton"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:text="Manage Item"
+            tools:ignore="MissingConstraints" />
+        <!--        Buttons which goes to librarian event management page-->
+        <Button
+            android:id="@+id/goToLibrarianEventButton"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:text="Manage Event"
+            tools:ignore="MissingConstraints" />
+        <!--        Buttons which goes to librarian business hour management page-->
+        <Button
+            android:id="@+id/goToLibrarianBusinessHourButton"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:text="Manage Business Hour"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:id="@+id/goToLibrarianEmploymentButton"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:text="Manage Employment"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+<!--Librarian Homepage Title-->
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="410dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="77dp"
+        android:text="Librarian Homepage"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColorLink="#4C3E3E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:visibility="visible" />
+</androidx.constraintlayout.widget.ConstraintLayout>
