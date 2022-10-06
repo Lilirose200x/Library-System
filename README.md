@@ -19,7 +19,7 @@ It has a database access object tier that load and save the necessary data into 
 a service tier that processes business logic and a web tier that 
 allows the read and write opeations on the displays UI surface on the website or the mobile frontend.
 
-Code of Web Backend and Frontend: https://github.com/McGill-ECSE321-Fall2021/project-group-18
+Code of Web Backend and Frontend: https://github.com/Lilirose200x/Library-System
 
 Code of Mobile Frontend: https://github.com/McGill-ECSE321-Fall2021/project-group-18/tree/android
 
