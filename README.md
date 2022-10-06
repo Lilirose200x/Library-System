@@ -21,8 +21,7 @@ allows the read and write opeations on the displays UI surface on the website or
 
 Code of Web Backend and Frontend: https://github.com/Lilirose200x/Library-System
 
-Code of Mobile Frontend: https://github.com/McGill-ECSE321-Fall2021/project-group-18/tree/android
-
+Code of Mobile Frontend: https://github.com/Lilirose200x/Library-System/tree/Android
 
 *********
 # Team Member
